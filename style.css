@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: white;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #007bff;
+    color: white;
+}
+
+/* Job Cards */
+.jobs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Job Detail */
+.job-detail {
+    padding: 30px;
+}
+
+.apply-btn {
+    padding: 12px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
